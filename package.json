@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://leonardocarvalho.github.io/cv",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
-  "repository": {
+  "repository": { 
     "type": "git",
     "url": "git+https://github.com/worldrules/cvdepixel.git"
   },
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/worldrules/cvdepixel#readme",
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "node-sass": "^4.13.0"
   }
 }
